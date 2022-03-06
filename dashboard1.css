@@ -1,0 +1,147 @@
+/* The sidepanel menu */
+.background{
+  background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url("bgm.jpeg");
+  background-size:cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+.sidepanel {
+    height: 250px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(39, 39, 39);
+    padding: 0px 15px ;
+    border: none;
+    background-color: #f7f7f7;
+  }
+  
+  .logout{
+    color: #111;
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+  }
+
+  .navbar{
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+  }
+  .container{
+    display: flexbox;
+    flex-flow: column;
+  }
+  .labels{
+    
+    font-size: larger;
+    border: 1px solid rgb(2, 53, 0);
+    border-radius: 8px;
+    height: 40px;
+    width: 40%;
+    outline: 0;
+    padding: 5px;
+    background-color: #ffffff;
+    
+}
+.date{
+  font-size: larger;
+    border: 1px solid rgb(2, 53, 0);
+    border-radius: 8px;
+    height: 40px;
+    width: 35%;
+    outline: 0;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.date1{
+  font-size: larger;
+    border: 1px solid rgb(2, 53, 0);
+    border-radius: 8px;
+    height: 40px;
+    width: 20%;
+    outline: 0;
+    padding: 5px;
+    background-color: #ffffff;
+}
+.submit1{
+    
+  background-color: #00a700;
+  color: white;
+  padding: 15px 20px;
+  margin: 30px 10px;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 30px;
+  opacity: 0.5;
+  transition: 0.3s;
+
+}
+.submit1:hover {opacity: 1;
+}
+.opacity{
+  opacity: 0.9;
+}
+.line{
+  color: rgb(0, 0, 0);
+}
+.container1{
+  text-align:center;
+  align-items: center;
+  justify-content:center;
+  padding: 60px 0px 30px 0px;
+  display: flex;
+  flex-direction:column;
+  height:450px;
+  width: 550px;
+  background-color: #f7f7f7;
+  border-radius: 30px ;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 5px rgba(50, 50, 93, 0.7), 0 5px 5px rgba(0, 0, 0, 0.07);}
